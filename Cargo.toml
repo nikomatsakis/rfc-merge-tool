@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.86"
+octocrate = { version = "1.0.0", features = ["pulls"] }
+structopt = "0.3.26"
+tokio = { version = "1.38.0", features = ["full"] }
